@@ -16,6 +16,7 @@
 .back-to-orders-link {
   display: inline-block;
   margin-bottom: 30px;
+  color: rgb(26,83,92);
 }
 
 .delivery-date {
@@ -44,7 +45,7 @@
 }
 
 .current-status {
-  color: rgb(6, 125, 98);
+  color: black;
 }
 
 @media (max-width: 575px) {

@@ -140,10 +140,16 @@
   width: 140px;
   height: 36px;
   border-radius: 8px;
-
+  background-color: rgb(26, 83, 92);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.buy-again-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .buy-again-icon {
@@ -159,11 +165,14 @@
   width: 100%;
   font-size: 15px;
   padding: 8px;
+  color: rgb(26, 83, 92);
+  border-color: rgb(26, 83, 92);
 }
 
 @media (max-width: 800px) {
   .buy-again-button {
     margin-bottom: 10px;
+    background-color: black;
   }
 
   .product-actions {
@@ -178,6 +187,8 @@
 
   .track-package-button {
     width: 140px;
+    color: rgb(26, 83, 92);
+    border-color: rgb(26, 83, 92);
   }
 }
 
@@ -203,6 +214,8 @@
   .buy-again-button {
     width: 100%;
     margin-bottom: 15px;
+    background-color: rgb(26, 83, 92);
+    color: white;
   }
 
   .product-actions {
@@ -216,5 +229,7 @@
   .track-package-button {
     width: 100%;
     padding: 12px;
+    color: rgb(26, 83, 92);
+    border-color: rgb(26, 83, 92);
   }
 }

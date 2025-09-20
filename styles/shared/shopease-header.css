@@ -1,13 +1,11 @@
-.amazon-header {
-  background-color: rgb(19, 25, 33);
+.shopease-header {
+  background-color: rgb(26,83,92);
   color: white;
   padding-left: 15px;
   padding-right: 15px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -15,12 +13,13 @@
   height: 60px;
 }
 
-.amazon-header-left-section {
-  width: 180px;
+.shopease-header-left-section {
+  width: 170px;
+  background-color: rgb(26,83,92);
 }
 
 @media (max-width: 800px) {
-  .amazon-header-left-section {
+  .shopease-header-left-section {
     width: unset;
   }
 }
@@ -38,33 +37,35 @@
   border: 1px solid white;
 }
 
-.amazon-logo {
-  width: 100px;
+.shopease-logo {
+  width: 115px;
   margin-top: 5px;
+  border-radius: 15px;
 }
 
-.amazon-mobile-logo {
+.shopease-mobile-logo {
   display: none;
 }
 
 @media (max-width: 575px) {
-  .amazon-logo {
+  .shopease-logo {
     display: none;
   }
 
-  .amazon-mobile-logo {
+  .shopease-mobile-logo {
     display: block;
     height: 35px;
     margin-top: 5px;
   }
 }
 
-.amazon-header-middle-section {
+.shopease-header-middle-section {
   flex: 1;
   max-width: 850px;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
+  background-color: rgb(26,83,92);
 }
 
 .search-bar {
@@ -73,43 +74,64 @@
   font-size: 16px;
   height: 38px;
   padding-left: 15px;
-  border: none;
+  border: 1px solid rgb(150, 150, 150);
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border-radius: 15px;
 }
 
 .search-button {
-  background-color: rgb(254, 189, 105);
+  background-color: white;
   border: none;
   width: 45px;
-  height: 40px;
+  height: 38px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   flex-shrink: 0;
+  border-radius: 15px;
+  margin-top: 2px;
 }
 
 .search-icon {
   height: 22px;
   margin-left: 2px;
   margin-top: 3px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-.amazon-header-right-section {
+.shopease-header-right-section {
   width: 180px;
   flex-shrink: 0;
   display: flex;
   justify-content: end;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(26,83,92);
 }
 
 .orders-link {
   color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.orders-link:hover {
+  border: 1px solid white;
 }
 
 .returns-text {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .orders-text {
@@ -121,12 +143,25 @@
 .cart-link {
   color: white;
   display: flex;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
   align-items: center;
   position: relative;
 }
 
+.cart-link:hover {
+  border: 1px solid white;
+
+}
+
 .cart-icon {
-  width: 50px;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 .cart-text {
@@ -136,14 +171,12 @@
 }
 
 .cart-quantity {
-  color: rgb(240, 136, 4);
+  color: white;
   font-size: 16px;
   font-weight: 700;
-
   position: absolute;
   top: 4px;
-  left: 22px;
-  
-  width: 26px;
+  left:30px;
+  width: 30px;
   text-align: center;
 }

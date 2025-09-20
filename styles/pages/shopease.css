@@ -113,7 +113,7 @@
 }
 
 .product-rating-count {
-  color: rgb(1, 124, 182);
+  color: rgb(26, 83,92);
   cursor: pointer;
   margin-top: 3px;
 }
@@ -132,7 +132,6 @@
 }
 
 .added-to-cart {
-  color: rgb(6, 125, 98);
   font-size: 16px;
 
   display: flex;
@@ -154,4 +153,11 @@
   width: 100%;
   padding: 8px;
   border-radius: 50px;
+  background-color: rgb(26, 83,92);
+  color: white;
+}
+
+.add-to-cart-button:hover {
+  background-color: black;
+  color: white;
 }

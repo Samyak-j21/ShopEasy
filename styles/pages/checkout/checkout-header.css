@@ -2,7 +2,7 @@
   height: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: white;
+  background-color: rgb(26, 83, 92);
 
   display: flex;
   justify-content: center;
@@ -26,12 +26,12 @@
   width: 150px;
 }
 
-.amazon-logo {
+.shopease-logo {
   width: 100px;
   margin-top: 12px;
 }
 
-.amazon-mobile-logo {
+.shopease-mobile-logo {
   display: none;
 }
 
@@ -44,11 +44,11 @@
     width: auto;
   }
 
-  .amazon-logo {
+  .shopease-logo {
     display: none;
   }
 
-  .amazon-mobile-logo {
+  .shopease-mobile-logo {
     display: inline-block;
     height: 35px;
     margin-top: 5px;
@@ -59,7 +59,7 @@
   flex: 1;
   flex-shrink: 0;
   text-align: center;
-
+  color: black;
   font-size: 25px;
   font-weight: 500;
 
@@ -68,7 +68,7 @@
 }
 
 .return-to-home-link {
-  color: rgb(0, 113, 133);
+  color: rgb(0, 0, 0);
   font-size: 23px;
   text-decoration: none;
   cursor: pointer;

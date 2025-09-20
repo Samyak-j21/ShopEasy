@@ -69,7 +69,7 @@
 }
 
 .delivery-date {
-  color: rgb(0, 118, 0);
+  color: rgb(26,83,92);
   font-weight: 700;
   font-size: 19px;
   margin-top: 5px;
@@ -110,7 +110,7 @@
 }
 
 .product-price {
-  color: rgb(177, 39, 4);
+  color: black;
   font-weight: 700;
   margin-bottom: 5px;
 }
@@ -152,7 +152,7 @@
 }
 
 .delivery-option-date {
-  color: rgb(0, 118, 0);
+  color: rgb(26,83,92);
   font-weight: 500;
   margin-bottom: 3px;
 }
@@ -192,10 +192,9 @@
 }
 
 .total-row {
-  color: rgb(177, 39, 4);
+  color: black;
   font-weight: 700;
   font-size: 18px;
-
   border-top: 1px solid rgb(222, 222, 222);
   padding-top: 18px;
 }
@@ -205,7 +204,16 @@
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 8px;
-
+  background-color: rgb(26,83,92);
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
   margin-top: 11px;
   margin-bottom: 15px;
+}
+
+.place-order-button:hover {
+  background-color: black;
+  color: white;
+
 }
