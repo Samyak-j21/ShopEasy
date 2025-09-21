@@ -10,6 +10,11 @@ Interactive Fun: All the buttons and features you see—like adding items to the
 
 Testing, Testing, Testing: To make sure everything was working perfectly, I used the Jasmine framework to test all the JavaScript logic. It was a great learning experience!
 
+🚀 Live Demo
+
+You can check out the live version of ShopEasy right here:
+👉 ShopEasy Live Website:https://samyak-j21.github.io/ShopEasy/shopease.html
+
 🚀 Getting It Up and Running
 Want to take a look? It's super easy to get started!
 
